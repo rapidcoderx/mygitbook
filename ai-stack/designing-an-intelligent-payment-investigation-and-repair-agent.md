@@ -150,6 +150,17 @@ MCP becomes the **interface layer between AI agents and banking systems**.
 
 
 ```mermaid
+%%{init: {
+  "theme": "forest",
+  "themeVariables": {
+    "fontFamily": "Inter, Segoe UI, Roboto, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "1000",
+    "actorFontSize": "24px",
+    "sequenceNumberFontSize": "24px"
+  }
+}}%%
+
 flowchart TD
     %% --- Styles ---
     classDef human fill:#fcefe3,stroke:#e0a46b,stroke-width:2px,color:#5a3d1e;
@@ -326,6 +337,17 @@ This ensures:
 ## Agent Internal Architecture
 
 ```mermaid
+%%{init: {
+  "theme": "forest",
+  "themeVariables": {
+    "fontFamily": "Inter, Segoe UI, Roboto, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "1000",
+    "actorFontSize": "24px",
+    "sequenceNumberFontSize": "24px"
+  }
+}}%%
+
 flowchart LR
 
     %% === STYLE DEFINITIONS ===
@@ -422,6 +444,17 @@ This prompt effectively encodes the **investigation playbook used by payment ope
 ## Investigation Workflow
 
 ```mermaid
+%%{init: {
+  "theme": "forest",
+  "themeVariables": {
+    "fontFamily": "Inter, Segoe UI, Roboto, sans-serif",
+    "fontSize": "24px",
+    "fontWeight": "1000",
+    "actorFontSize": "24px",
+    "sequenceNumberFontSize": "24px"
+  }
+}}%%
+
 sequenceDiagram
     autonumber
 
@@ -430,30 +463,24 @@ sequenceDiagram
     participant MCP as 🔧 MCP Tools<br/>API Orchestration
     participant Systems as 🏦 Banking Systems<br/>Core Services
 
-    %% --- User Inquiry ---
     Ops->>Agent: Why did payment REF‑827261 fail?
 
-    %% --- Payment Trace ---
     Agent->>MCP: trace_payment()
     MCP->>Systems: Query payment processor<br/>Status, routing, timestamps
     Systems-->>MCP: Payment status response
 
-    %% --- Validation Check ---
     Agent->>MCP: get_validation_errors()
-    MCP->>Systems: Call validation service<br/>Format, rules, schema checks
+    MCP->>Systems: Validation service<br/>Format, rules, schema checks
     Systems-->>MCP: Validation results
 
-    %% --- Compliance Screening ---
     Agent->>MCP: check_screening_status()
     MCP->>Systems: Compliance screening<br/>Sanctions, AML, KYC
     Systems-->>MCP: Screening result
 
-    %% --- Liquidity & Settlement ---
     Agent->>MCP: check_intraday_liquidity()
     MCP->>Systems: Liquidity system query<br/>Funding & settlement positions
     Systems-->>MCP: Liquidity & balance info
 
-    %% --- Final Output ---
     Agent-->>Ops: 📘 Root cause identified<br/>🛠️ Recommended repair action
 
 ```
