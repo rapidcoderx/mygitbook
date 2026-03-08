@@ -7,3 +7,4 @@
 
 * [My AI Stack (2026)](ai-stack/my-ai-stack-2026.md)
 * [Building MCP on Banking APIs](ai-stack/building-mcp-on-banking-apis.md)
+* [Designing an Intelligent Payment Investigation & Repair Agent](ai-stack/designing-an-intelligent-payment-investigation-and-repair-agent.md)
