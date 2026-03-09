@@ -195,12 +195,5 @@ The tool never knows which auth strategy is active. That separation means moving
 
 Before this week, I thought of APIs as _endpoints to call_. Now I think of them as _capabilities to describe_. That shift — from request-oriented to intent-oriented thinking — is what MCP forces you to make. And once you've made it, you can't go back.
 
-***
 
-_Full implementation details, tool schemas, and the spec-loader pattern are documented in the linked repository._
 
-_Curious — what's the hardest part of connecting LLMs to your existing systems? Drop a comment below._
-
-***
-
-**Tags:** `#MCP` `#AIAgents` `#CoreBanking` `#OpenAPI` `#FinancialServices` `#NodeJS` `#WeeklyLearning #`AI

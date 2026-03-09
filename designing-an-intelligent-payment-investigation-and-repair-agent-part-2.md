@@ -2,7 +2,7 @@
 description: >-
   Making the Payment Repair Agent Smarter: Using Knowledge Bases and Skills for
   Safer Automation
-icon: watch-apple
+icon: user-hat-tie-magnifying-glass
 ---
 
 # Designing an Intelligent Payment Investigation & Repair Agent - Part 2
@@ -200,14 +200,7 @@ With knowledge and skills added, the architecture evolves.
 
 ```mermaid
 %%{init: {
-  "theme": "forest",
-  "themeVariables": {
-    "fontFamily": "Inter, Segoe UI, Roboto, sans-serif",
-    "fontSize": "24px",
-    "fontWeight": "1000",
-    "actorFontSize": "24px",
-    "sequenceNumberFontSize": "24px"
-  }
+  "theme": "forest"
 }}%%
 
 flowchart TD
