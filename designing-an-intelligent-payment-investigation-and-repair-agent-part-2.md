@@ -9,10 +9,6 @@ icon: user-hat-tie-magnifying-glass
 
 ## 1. Recap of the Previous Architecture
 
-Start by briefly referencing your previous article.
-
-Example opening:
-
 In the previous article, we explored how an **AI Payment Investigation & Repair Agent** can orchestrate MCP tools to investigate payment failures across banking systems.
 
 The architecture introduced:
