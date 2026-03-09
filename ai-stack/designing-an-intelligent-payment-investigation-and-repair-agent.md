@@ -5,7 +5,7 @@ description: >-
 icon: user-hat-tie-magnifying-glass
 ---
 
-# Designing an Intelligent Payment Investigation & Repair Agent
+# Designing an Intelligent Payment Investigation & Repair Agent - Part 1
 
 Payment failures are one of the most operationally intensive workflows in banking systems.
 
