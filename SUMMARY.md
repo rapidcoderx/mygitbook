@@ -12,3 +12,4 @@
 ***
 
 * [Designing an Intelligent Payment Investigation & Repair Agent - Part 2](designing-an-intelligent-payment-investigation-and-repair-agent-part-2.md)
+* [Designing an Intelligent Payment Investigation & Repair Agent — Part 3](designing-an-intelligent-payment-investigation-and-repair-agent-part-3.md)
