@@ -15,3 +15,4 @@
 * [Designing an Intelligent Payment Investigation & Repair Agent — Part 3](designing-an-intelligent-payment-investigation-and-repair-agent-part-3.md)
 * [LiteLLM — Adding a Control Layer to My AI Stack](litellm-adding-a-control-layer-to-my-ai-stack.md)
 * [Google ADK - Python Masterclass](google-adk-python-masterclass.md)
+* [From Insight to Action: Building a WHOOP Agent with Tasklet](from-insight-to-action-building-a-whoop-agent-with-tasklet.md)
